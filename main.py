@@ -19,4 +19,7 @@ geojson = {
      } for i in birds]
 }
 
+output = open('output.json', 'w')
+json.dump(geojson, output)
+
 print(geojson)
