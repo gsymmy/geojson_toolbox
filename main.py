@@ -11,11 +11,11 @@ geojson = {
     "features": [
     {
         "type": "Feature",
+        "properties" : {},
         "geometry" : {
             "type": "Point",
             "coordinates": [i['location']['longitude'], i['location']['latitude']],
-            },
-        "properties" : i,
+            }
      } for i in birds]
 }
 
